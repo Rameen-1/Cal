@@ -1,0 +1,58 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to right, #ffccf9, #ccf2ff);
+  color: #3a3a3a;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #d63384;
+}
+
+.auth-form, .home, form {
+  background: white;
+  max-width: 400px;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(200, 200, 255, 0.3);
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #ffb3ec;
+  border-radius: 12px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+  background-color: #ffc1e3;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffa6d3;
+}
+
+.meeting-list {
+  list-style: none;
+  padding: 0;
+}
+
+.meeting-list li {
+  margin: 1em 0;
+  background: #fff0fa;
+  padding: 1em;
+  border-radius: 12px;
+}
